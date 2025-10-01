@@ -1,16 +1,53 @@
-# tunes_player_app
+# Tunes Player
 
-A new Flutter project.
+A simple Flutter music player app that allows you to play different tunes at the tap of a button.
+
+## Overview
+
+**Tunes Player** provides a fun and interactive way to listen to a set of preloaded tunes. The app presents a clean interface with colorful buttons, each corresponding to a unique sound.
+
+## Features
+
+- **Multiple Tunes:**  
+  Tap on different colored buttons to play various tunes.
+
+- **Minimalist UI:**  
+  Straightforward design focused on user interaction.
+
+- **Cross-Platform:**  
+  Runs on Android, iOS, Web, and Desktop using Flutter.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+1. **Clone this repository:**
+   ```sh
+   git clone https://github.com/OmarAlbaz-flutter/tunes_player.git
+   cd tunes_player
+   ```
 
-A few resources to get you started if this is your first Flutter project:
+2. **Install dependencies:**
+   ```sh
+   flutter pub get
+   ```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+3. **Run the app:**
+   ```sh
+   flutter run
+   ```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Project Structure
+
+- `lib/`: Main Dart code for the app.
+- `assets/sounds/`: Audio files for each tune.
+
+## Contributing
+
+Contributions are welcome! Feel free to open issues or submit pull requests.
+
+## License
+
+[MIT](LICENSE)
+
+---
+
+For more information on Flutter, see the [official Flutter documentation](https://docs.flutter.dev/).
